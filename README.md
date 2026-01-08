@@ -13,7 +13,7 @@ button{width:100%;padding:10px;margin:5px 0;border:none;border-radius:10px;backg
 body.dark button{background:#1e88e5}
 input,select{width:100%;padding:8px;margin:5px 0;border-radius:6px;border:1px solid #ccc;font-size:14px}
 body.dark input,body.dark select{background:#333;color:#eee;border-color:#888}
-
+    
 /* CARD / CONTAINER */
 .card{width:90%;max-width:700px;margin:15px auto;background:#fff;padding:15px;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.15);border:2px solid #42a5f5}
 body.dark .card{background:#1e1e1e;border:2px solid #1e88e5}
