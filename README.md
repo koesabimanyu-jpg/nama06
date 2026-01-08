@@ -1,6 +1,43 @@
-5.del{color:#aaa;font-size:14px;padding:0 8px;cursor:pointer}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kasir RM JOYO</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f2f2f2;color:#000;padding-top:24px;transition:.3s}
+body.dark{background:#121212;color:#eee}
+.page{display:none;padding:15px}
+.page.active{display:block}
+button{width:100%;padding:10px;margin:5px 0;border:none;border-radius:10px;background:#42a5f5;color:#fff;font-size:16px;cursor:pointer}
+body.dark button{background:#1e88e5}
+input,select{width:100%;padding:8px;margin:5px 0;border-radius:6px;border:1px solid #ccc;font-size:14px}
+body.dark input,body.dark select{background:#333;color:#eee;border-color:#888}
+
+/* CARD / CONTAINER */
+.card{width:90%;max-width:700px;margin:15px auto;background:#fff;padding:15px;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.15);border:2px solid #42a5f5}
+body.dark .card{background:#1e1e1e;border:2px solid #1e88e5}
+
+.header{text-align:center;margin-bottom:10px}
+/* Judul gradient */
+#displayNamaToko{
+    font-weight:bold;
+    font-size:28px;
+    background: linear-gradient(90deg, #ffffff, #ffeb3b, #e91e63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+}
+
+.kategori{margin:15px 0 5px;font-weight:bold;color:#42a5f5;border-bottom:2px solid #42a5f5;display:inline-block}
+.menu-item{display:flex;justify-content:space-between;align-items:center;padding:6px;background:#f9f9f9;border-radius:8px;margin-bottom:5px}
+body.dark .menu-item{background:#2a2a2a}
+.menu-info{flex:2;display:flex;justify-content:space-between;margin-right:15px;cursor:pointer}
+.del{color:#aaa;font-size:14px;padding:0 8px;cursor:pointer}
 .del:hover{color:red}
 
+/* PESANAN Rapat */
+.order{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid #ddd;font-size:14px}
 /* PESANAN Rapat */
 .order{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid #ddd;font-size:14px}
 
