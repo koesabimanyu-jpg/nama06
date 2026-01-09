@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -171,7 +171,7 @@ function updateWaktu(){
   let salam=jam<11?"PAGI":jam<15?"SIANG":jam<18?"SORE":"MALAM";
   document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT!   [ 087850876841 ]  DISIMPAN hub kami kalau bermasalah atau ERROR atau ada perubahan PASWORD sebisanya akan kami bantu memberi INFO. kami dari KOTA PECEL SEMOGA LANCAR USAHANYA MENJADI LARIS MANIS`;
 }
-setInterval(updateWaktu,3000);
+setInterval(updateWaktu,1000);
 
 // NAVIGASI HALAMAN
 function showPage(id){
