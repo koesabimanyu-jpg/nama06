@@ -171,7 +171,7 @@ function updateWaktu(){
   let salam=jam<11?"PAGI":jam<15?"SIANG":jam<18?"SORE":"MALAM";
   document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT!   [ 087850876841 ]  DISIMPAN hub kami kalau bermasalah atau ERROR. sebisa akan kami bantu        SEMOGA LANCAR USAHANYA MENJADI LARIS MANIS`;
 }
-setInterval(updateWaktu,1000);
+setInterval(updateWaktu,1500);
 
 // NAVIGASI HALAMAN
 function showPage(id){
