@@ -169,7 +169,7 @@ function updateWaktu(){
   document.getElementById("waktu").innerText=d.toLocaleString('id-ID');
   const jam=d.getHours();
   let salam=jam<11?"PAGI":jam<15?"SIANG":jam<18?"SORE":"MALAM";
-  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT! hub-087850876841`;
+  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT! 087850876841 [DISIMPAN hub kami...lg bermasalah atau ERROR]`;
 }
 setInterval(updateWaktu,1000);
 
