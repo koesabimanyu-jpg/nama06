@@ -169,7 +169,7 @@ function updateWaktu(){
   document.getElementById("waktu").innerText=d.toLocaleString('id-ID');
   const jam=d.getHours();
   let salam=jam<11?"PAGI":jam<15?"SIANG":jam<18?"SORE":"MALAM";
-  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT!   [ 087850876841 ]  DISIMPAN hub kami kalau bermasalah atau ERROR. sebisa akan kami bantu        SEMOGA LANCAR USAHANYA MENJADI LARIS MANIS`;
+  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT!   [ 087850876841 ]  DISIMPAN hub kami kalau bermasalah atau ERROR. sebisa akan kami bantu        KAMI DARI KOTA PECEL SEMOGA LANCAR USAHANYA MENJADI LARIS MANIS`;
 }
 setInterval(updateWaktu,1500);
 
