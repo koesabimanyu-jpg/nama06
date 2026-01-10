@@ -166,7 +166,7 @@ function updateWaktu(){
   document.getElementById("waktu").innerText=d.toLocaleString('id-ID');
   const jam=d.getHours();
   let salam=jam<11?"PAGI":jam<15?"SIANG":jam<18?"SORE":"MALAM";
-  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT!`;
+  document.getElementById("runText").innerText=`${salam}, ${identitas.kasir.toUpperCase()} @ ${identitas.toko.toUpperCase()}... SEMANGAT hub   087850876841   bila ada TROUBLE - ERROS pergantian PASEWORD scr ACAK`;
 }
 setInterval(updateWaktu,1000);
 
